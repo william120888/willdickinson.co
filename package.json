@@ -1,0 +1,25 @@
+{
+  "name": "willdicko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/william120888/willdicko.git"
+  },
+  "author": "William Dickinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/william120888/willdicko/issues"
+  },
+  "homepage": "https://github.com/william120888/willdicko#readme"
+}
