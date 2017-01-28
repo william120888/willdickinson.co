@@ -1,11 +1,25 @@
 var express     = require("express"), 
     app         = express(),
     mongoose    = require("mongoose");
+   
     
+app.use(express.static("public"));
 app.set("view engine", "ejs");
     
 app.get("/", function(req,res){
     res.render("landing.ejs");
+});
+
+app.get("/fanpics", function(req,res){
+    res.render("fanpics.ejs");
+});
+
+app.get("/veolia", function(req,res){
+    res.render("veolia.ejs");
+});
+
+app.get("/ncl", function(req,res){
+    res.render("ncl.ejs");
 });
 
 
